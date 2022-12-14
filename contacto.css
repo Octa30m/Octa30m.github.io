@@ -1,0 +1,148 @@
+body {background-image: url("imagenes/ciudad.jpg");}
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+.form-all {
+    font-family: Inter, sans-serif;
+  }
+  .form-all .qq-upload-button,
+  .form-all .form-submit-button,
+  .form-all .form-submit-reset,
+  .form-all .form-submit-print {
+    font-family: Inter, sans-serif;
+  }
+  .form-all .form-pagebreak-back-container,
+  .form-all .form-pagebreak-next-container {
+    font-family: Inter, sans-serif;
+  }
+  .form-header-group {
+    font-family: Inter, sans-serif;
+  }
+  .form-label {
+    font-family: Inter, sans-serif;
+  }
+
+  .form-label.form-label-auto {
+    
+  display: block;
+  float: none;
+  text-align: left;
+  width: 100%;
+
+  }
+
+  .form-line {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .form-all {
+    max-width: 752px;
+    width: 100%;
+  }
+
+  .form-label.form-label-left,
+  .form-label.form-label-right,
+  .form-label.form-label-left.form-label-auto,
+  .form-label.form-label-right.form-label-auto {
+    width: 230px;
+  }
+
+  .form-all {
+    font-size: 16px
+  }
+  .form-all .qq-upload-button,
+  .form-all .qq-upload-button,
+  .form-all .form-submit-button,
+  .form-all .form-submit-reset,
+  .form-all .form-submit-print {
+    font-size: 16px
+  }
+  .form-all .form-pagebreak-back-container,
+  .form-all .form-pagebreak-next-container {
+    font-size: 16px
+  }
+
+  .supernova .form-all, .form-all {
+    background-color: rgba(156, 74, 61, 0.8);
+  }
+
+  .form-all {
+    color: rgb(255, 255, 255);
+  }
+  .form-header-group .form-header {
+    color: rgb(255, 255, 255);
+  }
+  .form-header-group .form-subHeader {
+    color: rgb(255, 255, 255);
+  }
+  .form-label-top,
+  .form-label-left,
+  .form-label-right,
+  .form-html,
+  .form-checkbox-item label,
+  .form-radio-item label {
+    color: rgb(255, 255, 255);
+  }
+  .form-sub-label {
+    color: 1a1a1a;
+  }
+
+  .supernova {
+    background-color: #ecedf3;
+  }
+  .supernova body {
+    background: transparent;
+  }
+
+  .form-textbox,
+  .form-textarea,
+  .form-dropdown,
+  .form-radio-other-input,
+  .form-checkbox-other-input,
+  .form-captcha input,
+  .form-spinner input {
+    background-color: #fff;
+  }
+
+    .supernova {
+      height: 100%;
+      background-repeat: repeat;
+      background-attachment: scroll;
+      background-position: center top;
+    }
+  
+
+.ie-8 .form-all:before { display: none; }
+.ie-8 {
+  margin-top: auto;
+  margin-top: initial;
+}
+
+/*boton*/
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, lavender 5%, #408c99 100%);
+	background-color:beige;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
